@@ -51,7 +51,7 @@ driver.quit()
 
 print(f"The time left for the deal: {Hour}:{Min}:{Sec}")
 
-with open('DDR_HW4.txt', 'w') as f:
+with open('Best Buy.txt', 'w') as f:
     print('The time left for the deal:',Hour,':',Min,':',Sec, file=f)
 f.close()
     
